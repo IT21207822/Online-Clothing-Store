@@ -1,0 +1,80 @@
+.column 
+  {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 200px;
+      background-color: black;
+        /* Should be removed. Only for demonstration */
+  }
+    
+    /* Clear floats after the columns */
+  .row:after 
+  {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .column h2
+  {
+      font-family: "Times New Roman", Times, serif;
+      color: #FFFFFF;
+      align-items: center;
+  }
+  .column h5
+  {
+      color: #FFFFFF;
+  }
+    /*social media icons */
+ .fa 
+  {
+      padding: 20px;
+      font-size: 25px;
+      width: 10px;
+      height:10px;
+      text-align: center;
+     
+      margin: 3px 1px;
+  }
+  .fa:hover 
+  {
+      background-color: #FFFFFF;
+      color: #000000;
+  }
+    
+  .fa-facebook 
+  {
+      background: #000000;
+      color: #000000;
+  }
+    
+  .fa-twitter 
+  {
+      background: #000000;
+      font-color: white;
+  }
+    
+  .fa-google 
+  {
+      background: #000000;
+      color: white;
+  }
+  .fa-youtube
+  {
+      background: #000000;
+      color: white;
+  }
+
+  .fa-user-circle:hover
+  {
+      background-color: rgb(7, 7, 124);
+      color: white;
+  }
+
+  .column a{
+    
+    background: #000000;
+      color: white;
+   
+
+  }
